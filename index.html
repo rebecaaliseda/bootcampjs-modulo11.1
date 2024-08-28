@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validar IBAN</title>
+  </head>
+  <body>
+    <h1>Validar IBAN</h1>
+    <div class="container">
+      <form id="form">
+        <label for="iban-form">Introduzca IBAN:</label>
+        <input type="text" id="iban-form" name="iban-form" required />
+        <button type="submit" class="boton">Validar</button>
+      </form>
+      <div id="info-resultado"></div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
